@@ -1,0 +1,7 @@
+{
+  "Hello": "Hello world!!",
+  "system_error": "Hillston, we have a problem.",
+  "route_not_found %s": "Route '%s' was not found.",
+  "generic_error": "Erro interno no servidor.",
+  "field_required %s": "Please, send the %s parameter."
+}
