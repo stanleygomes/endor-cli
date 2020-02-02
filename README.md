@@ -1,4 +1,4 @@
-# A nodeJS bot to fill a duolingo story
+# Mark II - A nodeJS bot to fill a duolingo story
 
 I'll help you to make a lot of XP on **duolingo**. 🚀
 
