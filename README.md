@@ -11,7 +11,7 @@ Step by step to get this up and running
 ### Clone repo and go to project folder
 
 ```
-git clone https://github.com/stanleygomes/duolingo-bot.git && cd nodevader
+git clone https://github.com/stanleygomes/mark-ii.git && cd nodevader
 ```
 
 ### Install dependencies
