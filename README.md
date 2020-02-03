@@ -1,6 +1,6 @@
-# Mark II - A nodeJS bot to fill a duolingo story
+# Mark II - A nodeJS bot to test a duolingo story
 
-I'll help you to make a lot of XP on **duolingo**. 🚀
+This is for testing only porposes 🚀
 
 *It was crafted on [Nodevader](https://github.com/stanleygomes/nodevader)*.
 
