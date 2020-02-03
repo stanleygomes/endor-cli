@@ -6,8 +6,8 @@ I'll help you to make a lot of XP on **duolingo**. 🚀
 
 ## Requirements
 
-Node: `10.x`
-Global dependencies: `nodemon, mocha and eslint`
+- Node: `10.x`
+- Global dependencies: `nodemon, mocha and eslint`
 
 ## Startup
 
