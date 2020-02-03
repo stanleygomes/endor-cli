@@ -4,6 +4,11 @@ I'll help you to make a lot of XP on **duolingo**. 🚀
 
 *It was crafted on [Nodevader](https://github.com/stanleygomes/nodevader)*.
 
+## Requirements
+
+Node: `10.x`
+Global dependencies: `nodemon, mocha and eslint`
+
 ## Startup
 
 Step by step to get this up and running
@@ -18,6 +23,7 @@ git clone https://github.com/stanleygomes/mark-ii.git && cd nodevader
 
 ```bash
 npm install
+npm i -g nodemon mocha eslint
 ```
 
 ### Start server
