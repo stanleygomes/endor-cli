@@ -5,7 +5,7 @@ on:
     - master
 jobs:
   build:
-    name: Lint and Test on Ubuntu
+    name: Lint and Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -22,5 +22,3 @@ jobs:
     - name: Lint and test
       run: |
         npm run test
-      env:
-        CI: true
