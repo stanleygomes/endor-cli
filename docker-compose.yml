@@ -1,0 +1,60 @@
+version: '3.1'
+
+services:
+  mariadb:
+    image: mariadb
+    container_name: nodevader-mariadb
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_DATABASE=nodevader
+      - MYSQL_USER=nodevader
+      - MYSQL_PASSWORD=nodevader
+      - MYSQL_ROOT_PASSWORD=nodevader
+    volumes:
+      - ./server/storage/mariadb:/var/lib/mysql
+      - ./server/config/mysql.cnf:/etc/mysql/conf.d/mysql.cnf
+  postgres:
+    image: postgres:10-alpine
+    container_name: postgres
+    environment:
+      POSTGRES_PASSWORD: tatooine
+      POSTGRES_USER: tatooine
+      POSTGRES_DB: tatooine
+    stdin_open: true
+    tty: true
+    ports:
+      - 5432:5432/tcp
+    volumes:
+      - ./server/storage/postgres:/var/lib/postgresql
+#   flyway-postgres:
+#     container_name: flyway-postgres
+#     image: boxfuse/flyway:5.2.4
+#     command: -url=jdbc:postgresql://postgres/tatooine -schemas=tatooine -user=tatooine -password=tatooine migrate
+#     volumes:
+#       - ./server/migrations:/flyway/sql
+#     depends_on:
+#       - postgres
+  flyway-mariadb:
+    container_name: nodevader-flyway-mariadb
+    image: boxfuse/flyway:5.2.4
+    command: -url=jdbc:mysql://mariadb -schemas=nodevader -user=nodevader -password=nodevader -connectRetries=10 migrate
+    volumes:
+      - ./server/migrations:/flyway/sql
+    depends_on:
+      - mariadb
+  webserver:
+    build: ./server/bin/nodejs
+    image: webserver
+    container_name: nodevader-webserver
+    restart: always
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    depends_on:
+      - flyway-mariadb

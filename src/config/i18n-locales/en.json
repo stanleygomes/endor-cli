@@ -1,0 +1,10 @@
+{
+  "Hello": "Hello world!!",
+  "system_error": "Hillston, we have a problem.",
+  "route_not_found %s": "Route '%s' was not found.",
+  "generic_error": "Erro interno no servidor.",
+  "field_required %s": "Please, send the %s parameter.",
+  "none_private_key": "Please, provide a private key on [.env] file.",
+  "string.empty %s": "Field %s can't be empty",
+  "string.email %s": "O campo %s não é um email válido."
+}

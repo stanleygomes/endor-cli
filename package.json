@@ -1,0 +1,57 @@
+{
+  "name": "nodevader",
+  "version": "0.0.1",
+  "description": "Come to the node side",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development eslint . && cd ./src && mocha && cd .. && nodemon src/index.js",
+    "prd": "NODE_ENV=production eslint . && pm2 start src/config/ecosystem.config.js --no-daemon",
+    "migrate": "node src/migrate.js",
+    "lint": "eslint .",
+    "test": "NODE_ENV=test eslint . && cd ./src && mocha"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanleygomes/nodevader"
+  },
+  "author": "Stanley Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stanleygomes/nodevader"
+  },
+  "homepage": "https://github.com/stanleygomes/nodevader",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "axios": "^0.19.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.21.2",
+    "i18n": "^0.8.3",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.6",
+    "moment": "^2.24.0",
+    "multer": "^1.4.2",
+    "mustache": "^3.2.1",
+    "nodemailer": "^6.3.1",
+    "postgrator": "^4.0.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.1.4"
+  }
+}
