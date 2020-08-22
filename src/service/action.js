@@ -8,10 +8,7 @@ const questions = [
     type: 'list',
     name: 'repository',
     message: 'Choose your starter boilerplate:',
-    choices: [
-      'NodeJS - Nodevader',
-      'React.js - Juggernaut'
-    ]
+    choices: repoService.getBoilerplates()
   },
   {
     type: 'input',
