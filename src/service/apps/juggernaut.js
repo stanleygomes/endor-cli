@@ -1,7 +1,7 @@
 const app = {
   name: 'Juggernaut',
   description: 'An unstoppable boilerplate',
-  repo: 'https://github.com/SoftboxLab/juggernaut',
+  url: 'https://github.com/SoftboxLab/juggernaut',
   postInstall: `
     npm install
   `
