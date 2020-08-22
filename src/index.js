@@ -1,4 +1,4 @@
-#!/usr/bin/envnode
+#!/usr/bin/env node
 
 const { Command } = require('commander')
 const pkg = require('../package.json')

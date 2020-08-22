@@ -1,21 +1,27 @@
 {
   "name": "endor-cli",
-  "version": "0.0.1",
-  "description": "Come to the node side",
+  "version": "1.0.2",
+  "description": "Come to the javascript side 🚀 🌑",
+  "private": false,
+  "preferGlobal": true,
   "main": "./src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint .",
-    "test": "NODE_ENV=test eslint . && cd ./src && mocha"
+    "test": "NODE_ENV=test eslint . && cd ./src && mocha",
+    "publish": "npm publish --access public"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org/"
+  },
+  "bin": {
+    "endor-cli": "src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/stanleygomes/endor-cli"
   },
-  "author": "Stanley Gomes",
+  "author": "stanleygomes",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stanleygomes/endor-cli"
