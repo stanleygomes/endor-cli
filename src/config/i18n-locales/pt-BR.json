@@ -4,5 +4,8 @@
 	"generic_error": "Internal server error.",
 	"field_required %s": "Por favor, informe o parâmetro [%s].",
 	"string.empty %s": "O campo %s não pode ficar vazio.",
-  "string.email %s": "O campo %s não é um email válido."
+	"string.email %s": "O campo %s não é um email válido.",
+	"createCall": "Vamos iniciar o seu app",
+  "emptyRepositoryUrl": "Por favor, informe um repositorio para clonar.",
+  "emptyFolderName": "Por favor, informe o nome da pasta."
 }

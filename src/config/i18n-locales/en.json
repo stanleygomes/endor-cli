@@ -4,5 +4,8 @@
   "generic_error": "Erro interno no servidor.",
   "field_required %s": "Please, send the %s parameter.",
   "string.empty %s": "Field %s can't be empty",
-  "string.email %s": "O campo %s não é um email válido."
+  "string.email %s": "O campo %s não é um email válido.",
+  "createCall": "Bootstrap your app",
+  "emptyRepositoryUrl": "Please, provide a repository to clone.",
+  "emptyFolderName": "Please, provide a folder name."
 }
