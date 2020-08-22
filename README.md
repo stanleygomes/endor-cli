@@ -31,7 +31,6 @@ Now you're ready to rock and create your first app
 endor-cli create
 ```
 
-
 <div id='patterns'/>
 
 ## Patterns
