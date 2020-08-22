@@ -3,19 +3,13 @@
 
 # Endor CLI
 
-Endor CLI - A Javascript Boilerplate Generator CLI. Come to the node side 🚀 🌑
+A Javascript Boilerplate Generator CLI. Come to javascript side 🚀 🌑
 
-The main goal of **Endor CLI** is to make it easy to start a javascript project using greeat and minimal boilerplates.
-
-<p  align="center" style="padding:15px 0;">
-	<img src="https://i.imgur.com/qRqJup1.png" width="400px" />
-  <br />
-  Icon by <a href="https://dribbble.com/creativeflip" target="_blank">Filipe Carvalho</a>
-</p>
+The main goal of **Endor CLI** is to make it easy to start a javascript project using great and minimal boilerplates.
 
 *******
-Table of contents 
- 1. [How to](#startup)
+Table of contents
+ 1. [How to use](#startup)
  2. [Patterns and libs](#patterns)
  3. [Contribute](#contribute)
  4. [Gitflow recommendations](#gitflow)
@@ -23,7 +17,11 @@ Table of contents
 
 <div id='startup'/>
 
-## How to
+## How to use
+
+```
+npm i -g endor-cli
+```
 
 <div id='patterns'/>
 
@@ -41,23 +39,23 @@ These are some of patterns definitions to help us to keep a default arquitecture
 
 <div id='contribute'/>
 
-## How to get started
+## How to get contribute
 
 Step by step to get this up and running
 
-### Clone repo and go to project folder
+**Clone repo and go to project folder**
 
 ```
 git clone https://github.com/stanleygomes/endor-cli.git && cd endor-cli
 ```
 
-### Install dependencies
+**Install dependencies**
 
 ```bash
 npm install
 ```
 
-### Config enviroment
+**Config enviroment**
 
 Copy enviroment variables template
 
@@ -65,7 +63,7 @@ Copy enviroment variables template
 cp .env.template .env
 ```
 
-### Start
+**Start**
 
 ```bash
 npm start
