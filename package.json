@@ -1,6 +1,6 @@
 {
   "name": "endor-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Come to the javascript side 🚀 🌑",
   "private": false,
   "preferGlobal": true,
@@ -8,8 +8,7 @@
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint .",
-    "test": "NODE_ENV=test eslint . && cd ./src && mocha",
-    "publish": "npm publish --access public"
+    "test": "NODE_ENV=test eslint . && cd ./src && mocha"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

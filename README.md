@@ -19,9 +19,18 @@ Table of contents
 
 ## How to use
 
+First time you'll need to install the package from npm globally:
+
 ```
 npm i -g endor-cli
 ```
+
+Now you're ready to rock and create your first app
+
+```
+endor-cli create
+```
+
 
 <div id='patterns'/>
 
