@@ -11,8 +11,9 @@ The main goal of **Endor CLI** is to make it easy to start a javascript project 
 Table of contents
  1. [How to use](#startup)
  2. [Patterns and libs](#patterns)
- 3. [Contribute](#contribute)
- 4. [Gitflow recommendations](#gitflow)
+ 3. [Available Boilerplates](#boilerplates)
+ 4. [Contribute](#contribute)
+ 5. [Gitflow recommendations](#gitflow)
 *******
 
 <div id='startup'/>
@@ -30,6 +31,13 @@ Now you're ready to rock and create your first app
 ```
 endor-cli create
 ```
+
+<div id='startup'/>
+
+## Available Boilerplates
+
+- Nodejs: [nodevader](https://github.com/stanleygomes/nodevader)
+- React: [juggernaut](https://github.com/SoftboxLab/juggernaut)
 
 <div id='patterns'/>
 
