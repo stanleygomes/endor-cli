@@ -10,8 +10,8 @@ The main goal of **Endor CLI** is to make it easy to start a javascript project 
 *******
 Table of contents
  1. [How to use](#startup)
- 2. [Patterns and libs](#patterns)
- 3. [Available Boilerplates](#boilerplates)
+ 2. [Available Boilerplates](#boilerplates)
+ 3. [Patterns and libs](#patterns)
  4. [Contribute](#contribute)
  5. [Gitflow recommendations](#gitflow)
 *******
@@ -32,9 +32,11 @@ Now you're ready to rock and create your first app
 endor-cli create
 ```
 
-<div id='startup'/>
+<div id='boilerplates'/>
 
 ## Available Boilerplates
+
+These are the available boilerplates to get your project started
 
 - Nodejs: [nodevader](https://github.com/stanleygomes/nodevader)
 - React: [juggernaut](https://github.com/SoftboxLab/juggernaut)
@@ -43,7 +45,7 @@ endor-cli create
 
 ## Patterns
 
-These are some of patterns definitions to help us to keep a default arquitecture.
+These are some of patterns definitions to help us to keep a default arquitecture
 
 - Package manager: [npm](https://medium.com/@vincentnewkirk/npm-vs-yarn-2019-e88757b17038), sure
 - Node version: [v10.x](https://nodejs.org/ca/blog/release/v10.16.3)
