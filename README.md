@@ -23,7 +23,7 @@ Table of contents
 
 ## :pencil: Requirements
 
-This boilerplate supports Node.js from version v10.x
+This CLI supports Node.js from version v10.x
 
 <div id='startup'/>
 
