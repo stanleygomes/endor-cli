@@ -1,7 +1,7 @@
+# Endor CLI
+
 [![CodeFactor](https://www.codefactor.io/repository/github/stanleygomes/endor-cli/badge)](https://www.codefactor.io/repository/github/stanleygomes/endor-cli)
 ![Lint and test](https://github.com/stanleygomes/endor-cli/workflows/Lint%20and%20test/badge.svg)
-
-# Endor CLI
 
 A Javascript Boilerplate Generator CLI. Come to javascript side 🚀 🌑
 
@@ -9,16 +9,25 @@ The main goal of **Endor CLI** is to make it easy to start a javascript project 
 
 *******
 Table of contents
+
+ 0. [Requirements](#requirements)
  1. [How to use](#startup)
  2. [Available Boilerplates](#boilerplates)
  3. [Patterns and libs](#patterns)
  4. [Contribute](#contribute)
  5. [Gitflow recommendations](#gitflow)
+ 6. [Licence](#license)
 *******
+
+<div id='requirements'/>
+
+## :pencil: Requirements
+
+This boilerplate supports Node.js from version v10.x
 
 <div id='startup'/>
 
-## How to use
+## :rocket: How to use
 
 First time you'll need to install the package from npm globally
 
@@ -34,7 +43,7 @@ endor-cli create
 
 <div id='boilerplates'/>
 
-## Available Boilerplates
+## :100: Available Boilerplates
 
 These are the available boilerplates to get your project started
 
@@ -43,7 +52,7 @@ These are the available boilerplates to get your project started
 
 <div id='patterns'/>
 
-## Patterns
+## :heavy_check_mark: Patterns
 
 These are some of patterns definitions to help us to keep a default arquitecture
 
@@ -57,7 +66,7 @@ These are some of patterns definitions to help us to keep a default arquitecture
 
 <div id='contribute'/>
 
-## How to get contribute
+## :v: How to get contribute
 
 Step by step to get this up and running
 
@@ -89,7 +98,7 @@ npm start
 
 <div id='gitflow'/>
 
-## Git flow
+## :trident: Git flow
 
 To file a new a feature
 
@@ -97,3 +106,12 @@ To file a new a feature
 - file a pull request on `master` branch
 - since your PR is aproved, it will be merged to `master` branch
 - in a moment in time we'll create a release, using the pattern: `release/vX.X.X`
+
+<div id='license'/>
+
+## :scroll: License 
+
+```
+MIT license. Copyright (c) 2019 Stanley.
+For more information, see the LICENSE file.
+```
