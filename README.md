@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/stanleygomes/endor-cli/badge)](https://www.codefactor.io/repository/github/stanleygomes/endor-cli)
 ![Lint and test](https://github.com/stanleygomes/endor-cli/workflows/Lint%20and%20test/badge.svg)
 
-A Javascript Boilerplate Generator CLI. Come to javascript side 🚀 🌑
+A Boilerplate Starter. Come to javascript side 🚀
 
 The main goal of **Endor CLI** is to make it easy to start a javascript project using great and minimal boilerplates.
 
