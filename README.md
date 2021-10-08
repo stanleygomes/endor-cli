@@ -112,6 +112,6 @@ To file a new a feature
 ## :scroll: License 
 
 ```
-MIT license. Copyright (c) 2020 Stanley.
+MIT license. Copyright (c) 2021 Stanley.
 For more information, see the LICENSE file.
 ```
